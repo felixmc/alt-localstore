@@ -53,7 +53,7 @@ var LocalCache = (function () {
     value: function save(data) {
       var saveState = data || this.store.state || _immutable2['default'].Map();
       var stateStr = JSON.stringify(saveState.toJS());
-      this[symbols.debug]('saving store state to localStorage', stateStr);
+      this.debug('saving store state to localStorage', stateStr);
       localStorage.setItem(this.key, stateStr);
     }
   }, {
