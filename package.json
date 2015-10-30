@@ -1,0 +1,31 @@
+{
+  "name": "alt-localstore",
+  "version": "1.0.0",
+  "description": "save and restore alt store state to localStorage, listens to changes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixmc/alt-localstore.git"
+  },
+  "keywords": [
+    "alt",
+    "flux",
+    "react",
+    "store",
+    "localstorage",
+    "cache"
+  ],
+  "author": "Felix Milea-Ciobanu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixmc/alt-localstore/issues"
+  },
+  "homepage": "https://github.com/felixmc/alt-localstore#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "immutable": "^3.7.5"
+  }
+}
