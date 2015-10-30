@@ -56,5 +56,5 @@ Automatically called in the constructor.
 Stop listening to store state changes.
 
 
-### Source Code
+## Source Code
 Source code was originally written in es6. Default import retrieves the babel transpiled es5 version. To import the es6 version of the module, use `import LocalStore from 'alt-localstore/index.es6'`
