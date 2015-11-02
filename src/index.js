@@ -2,7 +2,7 @@ import debug from 'debug';
 import Immutable from 'immutable';
 
 
-class LocalCache {
+class LocalStore {
   constructor(store, key = store.displayName) {
     this.debug = debug('localstore:' + key).bind(null, '');
     this.debug('registering localStorage');
@@ -40,4 +40,4 @@ class LocalCache {
   }
 }
 
-export default LocalCache;
+export default LocalStore;
