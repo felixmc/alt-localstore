@@ -57,4 +57,4 @@ Stop listening to store state changes.
 
 
 ## Source Code
-Source code was originally written in es6. Default import retrieves the babel transpiled es5 version. To import the es6 version of the module, use `import LocalStore from 'alt-localstore/index.es6'`
+Source code is written in es6 and is transpiled to es5 on npm publish. Default import retrieves the babel transpiled es5 version. The es6 source code can be found in `src/index.js`.
