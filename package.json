@@ -1,6 +1,6 @@
 {
   "name": "alt-localstore",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "save and restore alt store state to localStorage, listens to changes",
   "main": "lib/index.js",
   "scripts": {
